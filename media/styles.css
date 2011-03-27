@@ -2,7 +2,7 @@
 body {color: #999; background-color: #000; font-family: "Helvetica Neue", Helvetica, arial, sans-serif; font-size: 13px; line-height: 1.8em; background-image: url(bck.jpg); padding: 0; margin: 0; }
 
 /* Main structure classes */
-.wrapper {float: left; width: 100%; height: 380px; background-image: url(top_bck.png); background-repeat: repeat-x; background-position: top; }
+.wrapper {background-image: url(top_bck.png); background-repeat: repeat-x; background-position: top; }
 .box {position: absolute; top: 0px; left: 50%; width: 780px; margin: 10px 0px 0px -390px; background-image: url(arrow.png); background-repeat: no-repeat; background-position: bottom; }
 .left {float: left; width: 339px; border-right: 1px solid #333; text-align: right; padding: 20px 30px 20px 20px; min-height: 230px; }
 .right {float: right; width: 349px; text-align: left; padding: 20px; border-left: 1px solid #000; min-height: 230px; }
@@ -46,4 +46,15 @@ div.contact {margin-top: 20px; }
 .logo h1 span.first { text-align: right; width: 369px; }
 .logo h1 span.last { text-align: left; color: #2C88CE; }
 
-.form > div { text-align: center; }
+.form > nav { text-align: center; }
+
+/* Resumé Layout / Styles */
+#work article { position: relative; padding-bottom: .5em; border-bottom: 1px solid #333; }
+#work article header { float: left; width: 25%; }
+#work article date { display: block;; }
+#work article .summary { float: right; width: 70%; }
+#work article li { margin-top: .75em; }
+#work article strong, #work article em, #work article .tu { color: #fff; }
+
+
+h2 { margin-top: 1.5em; }
