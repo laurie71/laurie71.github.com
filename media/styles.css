@@ -1,5 +1,6 @@
 /*Base class*/
 body {color: #999; background-color: #000; font-family: "Helvetica Neue", Helvetica, arial, sans-serif; font-size: 13px; line-height: 1.8em; background-image: url(bck.jpg); padding: 0; margin: 0; }
+#work { padding: 0 2em; } /* xxx quick-hack-fix for margin overflow issue in print */
 
 /* Main structure classes */
 .wrapper {background-image: url(top_bck.png); background-repeat: repeat-x; background-position: top; }
